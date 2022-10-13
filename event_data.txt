@@ -1,0 +1,1 @@
+time: "12:34:56" challenge: "Find the 5th value in the \"sequence\"" hint: "SGVsbG8sIHRyeSBYT1Igd2l0aCAweDE3Rg==" one: "0x154" two: "0x150" three: "0x14A" four: "0x144"
