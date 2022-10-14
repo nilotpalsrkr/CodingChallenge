@@ -88,6 +88,8 @@ def parse_and_convert_to_json(input: str) -> str:
 
 # We see a similar sequence getting generated and so for the next step, we take this difference and match with step 1.
 # If the difference matches, we confirm the hex number and return.
+
+# We make this explanation clear in a separate diagram @See ChallengeExplanation.png
 def get_next_event(prev_hex_number: int, current_hex_number: int, hint_hex: int):
     prev_dec_number = int(prev_hex_number, 16)
     current_dec_number = int(current_hex_number, 16)

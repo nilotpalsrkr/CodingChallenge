@@ -4,6 +4,7 @@ import json
 
 from JsonConverter import parse_and_convert_to_json, get_next_event
 
+# Take inputs from the file.
 text_file = open("event_data.txt", "r")
 
 # read whole file to a string
